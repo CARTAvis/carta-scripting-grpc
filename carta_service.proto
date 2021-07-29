@@ -13,6 +13,7 @@ message ActionRequest {
     string action = 3;
     string parameters = 4;
     bool async = 5;
+    string return_path = 6;
 }
 
 // A response with the success status resulting from the action call, and a possible error message
